@@ -1,0 +1,101 @@
+🧠 script.js — Line-by-Line Notes:
+
+function fetchProduct() {        ( This starts a function named fetchProduct — it runs when the user clicks the “Compare Prices” button. )
+
+
+  const link = document.getElementById("link").value.trim();       (Get the value from the input box (id="link"), remove extra spaces, and store it in the link variable.)
+
+
+  const result = document.getElementById("result");  ( Get the <div> with id="result" where we will show product results.)
+
+   
+  result.innerHTML = ""; (Clear any previous results inside the result box.)
+
+
+  if (!link || !link.includes("amazon")) {   (Check: if the input is empty OR doesn't contain the word "amazon", then...)
+
+
+        result.innerHTML = "<p style='color: red;'>Please enter a valid Amazon product link.</p>";
+    return;                                   (Show an error message and stop the function here (using return).)
+
+
+
+  // Simulated Product Info (replace later with real data)
+(📝 This is a comment for developers — it tells you that the product data is fake now and can be replaced later.)
+
+
+
+  const product = {                 (Creating a fake product object with name and image.)
+    name: "Samsung Galaxy M14 5G",
+    image: "https://m.media-amazon.com/images/I/81ZSn2rk9WL._SL1500_.jpg",
+
+
+
+        platforms: [  ( Now we create a list of platforms where the product is available (Amazon, Flipkart, Croma).)
+
+
+       {                                           (Platform 1: Amazon Name, logo link, price, and buy link)
+        name: "Amazon",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+        price: "₹12,999",
+        link: "https://www.amazon.in/dp/B0BZV2XH88"
+      },
+           
+
+            {                                          (Platform 2: Flipkart Same info as Amazon, but with Flipkart details.)
+        name: "Flipkart",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/0/0b/Flipkart_logo.png",
+        price: "₹12,499",
+        link: "https://www.flipkart.com"
+      },
+ 
+
+
+            {                              (Platform 3: Croma All data for 3 platforms is now stored inside product.platforms.)
+        name: "Croma", 
+        logo: "https://upload.wikimedia.org/wikipedia/commons/4/45/Croma_logo.svg",
+        price: "₹12,990",
+        link: "https://www.croma.com"
+      }
+    ]
+  };
+
+
+    // Generate cards for each platform
+(📝 Another helpful comment saying: "We're now going to show each product on screen.")
+
+
+  product.platforms.forEach(platform => { (Go through each platform one by one using forEach() loop.)
+
+
+        const card = document.createElement("div");        (Create a new <div> for each platform and give it the class card (so it gets styled).)
+    card.className = "card";
+
+
+
+
+
+        card.innerHTML = `                              
+      <img class="platform-logo" src="${platform.logo}" alt="${platform.name} Logo" />
+      <h3>${product.name}</h3>
+      <img class="product-image" src="${product.image}" alt="${product.name}" />
+      <p><strong>Price:</strong> ${platform.price}</p>
+      <a href="${platform.link}" target="_blank">Buy on ${platform.name}</a>
+    `;
+(Inside each card:
+
+Show platform logo
+
+Show product name and image
+
+Show price
+
+Add a link to buy from that platform
+🧠 ${...} is used to insert dynamic values (like name, price, image, etc.))
+
+
+
+
+    result.appendChild(card);            ( Add the new card inside the result box on the page — so users can see it.)
+  });
+}

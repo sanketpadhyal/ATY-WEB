@@ -1,0 +1,238 @@
+📄 style.css — Line-by-Line Explanation:
+
+body {  (bracket open)
+
+
+  margin: 0;  (Remove default spacing around the page)
+
+
+  font-family: 'Inter', sans-serif;  (Use modern, readable font)
+
+
+  background-color: #121212;  ( Set a dark background (dark mode) )
+
+  
+  color: #f1f1f1;  (Light text color for contrast)
+
+
+  text-align: center;  (Center text horizontally)
+
+
+  padding: 2rem;  (Add space inside the body)
+
+
+}    (bracket close)
+
+
+
+
+
+
+header h1 {      (header h1 open)
+  
+  
+  font-size: 2.5rem;  (Make main title big)
+
+  
+  color: #00ffe7;  (Neon cyan for cool visual effect)
+
+
+
+}     (header h1 close)
+
+
+
+
+
+
+header p {     (header p start)                       
+
+
+    margin-top: 0.5rem;                      (Small space above subtitle)
+ 
+ 
+    color: #bbb;                                (Light gray text for subtitle)
+
+
+
+}     (header p close)
+
+
+
+
+
+input {
+
+
+  padding: 0.8rem;  (Add spacing inside input box)
+
+
+  width: 80%;  (Take 80% of screen width)
+
+
+  max-width: 500px;  (But not more than 500px wide)
+
+
+  border: none;  (No border)
+
+
+  border-radius: 8px;  (Rounded corners)
+
+
+  background: #1e1e1e;  ( Dark input background )
+
+
+  color: #fff;  ( White text inside input )
+
+
+  margin-top: 1.5rem;  ( Space above input )
+
+
+  box-shadow: 0 0 5px #333;  ( Slight shadow for depth )
+
+
+
+}
+
+
+
+
+
+button {
+
+
+  margin-top: 1rem;  (Space above button)
+
+
+  padding: 0.8rem 1.5rem;  ( Inside spacing (top-bottom, left-right) )
+
+
+  border: none;        (border)
+
+
+  border-radius: 8px;  (Rounded corners)
+
+
+  background-color: #00ffe7;  (Neon cyan button color)
+
+
+  color: black;  (Black text inside button)
+
+
+  font-weight: bold;  (Make button text bold)
+
+
+  cursor: pointer;  (Cursor changes to pointer on hover)
+
+
+  transition: 0.3s;  (Smooth animation on hover)
+
+
+}
+
+
+button:hover {
+
+
+  background-color: #00cfc1;  (Slightly darker color when hovered)
+
+
+}
+
+
+
+
+
+
+
+.card {
+
+
+  background: #1e1e1e;  (Dark card background)
+  
+  
+  padding: 1.5rem;  (Space inside the card)
+  
+  
+  border-radius: 16px;  (Big rounded corners)
+  
+  
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);   (Strong shadow for 3D effect)
+  
+  
+  margin-top: 2rem;  ( Space above each card )
+  
+  
+  max-width: 500px;  ( Card won't go wider than 500px )
+  
+  
+  margin-left: auto;
+  
+  
+  margin-right: auto;  ( Center the card horizontally )
+  
+  
+  text-align: left;  ( Align card content to left )
+
+
+}
+
+
+
+.platform-logo {
+
+  
+  width: 100px;  ( Fixed size for platform icons like Amazon/Flipkart )
+  
+  
+  margin-bottom: 10px;  ( Space below the logo )
+
+
+}
+
+
+
+
+.product-image {
+
+
+  width: 100%;  ( Take full width inside the card )
+  
+  
+  border-radius: 12px;  ( Smooth edges )
+  
+  
+  margin: 1rem 0;  ( Space above and below image )
+
+
+}
+
+
+
+
+
+
+.footer {
+
+
+  margin-top: 4rem;  ( Large space above footer )
+  
+  
+  font-size: 0.9rem;  ( Slightly smaller text )
+  
+  
+  color: #888;  ( Light gray for less focus )
+
+
+}
+
+
+
+
+.footer .small {
+
+
+  font-size: 0.75rem;  ( Extra small text for version/info )
+
+
+}

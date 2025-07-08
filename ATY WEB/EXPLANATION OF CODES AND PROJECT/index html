@@ -1,0 +1,63 @@
+📄 index.html — Line-by-Line Explanation:
+
+<!DOCTYPE html> ( Declares the document type as HTML5.)
+
+
+<html lang="en"> (Starts the HTML document and sets the language to English.)
+
+
+<head> (Begins the head section (info about the webpage).
+
+
+    <meta charset="UTF-8"> (Sets character encoding to support most symbols/text.)
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> (Makes the website responsive for mobile
+    devices.)
+
+
+    <title>ATY WEB — Compare Smartly</title> (Sets the title that appears on the browser tab.)
+
+
+    <link rel="stylesheet" href="style/style.css"> (Links the external CSS file for styling.)
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet"> (Loads a
+    Google Font named "Inter" for modern text style.)
+
+
+</head> (Ends the head section.)
+
+
+<body> (Begins the visible content of the page.)
+
+
+    <header> (Header section with project title and tagline.)
+        <h1>🛒 ATY WEB</h1>
+        <p>All Things You Need — Compared Smartly</p>
+    </header>
+
+
+    <main>
+        <input type="text" id="link" placeholder="Paste Amazon product link..." /> (input: where users paste the product
+        link.)
+        <button onclick="fetchProduct()">Compare Prices</button> (button: triggers the comparison function.)
+        <div id="result"></div> (div: where results will appear.)
+    </main>
+
+
+
+    <footer>
+        <p>Made with ❤️ by <strong>VortexByte ~ Sanket Padhyal</strong></p> (Footer section with your name and version
+        info.)
+        <p class="small">CURRENTLY DEMO VERSION v1🙏</p>
+    </footer>
+
+
+
+    <script src="js/script.js"></script> (Links the JavaScript file that powers the app logic.)
+
+
+</body> (Ends the body and HTML document.)
+
+</html>
