@@ -1,0 +1,117 @@
+ATY WEB Terminal Code Explanation ✅
+
+import time                        
+import os
+
+[EXPLANATION]
+
+TIME: lets us create delay for transitions.
+OS: is for controlling terminal (like clearing the screen).
+
+
+
+
+def delay_print(text, delay=0.02):        (This is a special function that prints each letter one-by-one like typing effect to look stylish and slow.)
+    for char in text:
+        print(char, end='', flush=True)
+        time.sleep(delay)
+
+
+os.system("clear" if os.name == "posix" else "cls")
+[EXPLANATION]
+This line clears the terminal screen. It works on both Termux (Linux) and Windows VS Code.
+
+
+
+print("=" * 70)
+print("🌐  Welcome to ATY WEB Terminal Version".center(70))
+print("=" * 70)
+[EXPLANATION]
+Shows the title with nice borders and a globe emoji. 
+center(70) makes it sit in the center.
+
+
+
+
+print("\nAll Things You Need – Compared Smartly\n")
+[EXPLANATION]
+ust a cool one-liner tagline.
+
+
+
+print("✨ Fast   🖥️ Terminal Based   🎨 Stylish\n")
+[EXPLANATION]
+We highlight 3 features using emojis. Fast, Terminal-friendly, and Stylish.
+
+
+
+delay_print("🔗 [📎] Paste your Amazon product link below to start (simulation):\n", 0.01)
+[EXPLANATION]
+ This prints a fancy prompt asking user to paste a product link. It’s just for simulation.
+
+
+
+input("➤ ")
+[EXPLANATION]
+Takes input from user. We don’t use it but it makes it feel interactive like a real app.
+
+
+
+delay_print("\n🔍 Searching for similar products on other platforms..\n", 0.02)
+time.sleep(1)
+print(".")
+time.sleep(0.5)
+print(".")
+time.sleep(0.5)
+print(".\n")
+[EXPLANATION]
+Simulates a smart search using delay. It prints 3 dots with a delay for loading effect.
+
+
+
+print("✅ Results Found (Simulated)\n")
+[EXPLANATION]
+Shows that we found results — even though it’s fake for now (simulation).
+
+
+
+print("🛒 Flipkart: ₹999   ➤  [PROFIT: ₹200 ✅]")
+print("🛒 Snapdeal: ₹1050  ➤  [LOSS: ₹50 ❌]")
+print("🛒 Croma: ₹970      ➤  [PROFIT: ₹230 ✅]\n")
+[EXPLANATION]
+We show price comparison like a real product checker. Emojis show profit or loss.
+
+
+
+
+print("\033[95mMade with 🔻 by SANKET PADHYAL ~ VORTEXBYTE\033[0m")
+print("\033[90mCurrently Demo Version V2 is in Work Process 🛠️\033[0m\n")
+[EXPLANATION]
+our signature line with color!
+
+\033[95m is purple color for your name.
+
+\033[90m is grey color for the version note.
+
+\033[0m resets color back to normal.
+
+
+
+
+print("\033[96mThank you for using ATY WEB Terminal ✨\033[0m\n")
+[EXPLANATION]
+Thanks message in sky blue color with sparkles.
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+python aty_web.py
+
+
+
+It runs only in Termux or VS Code Terminal with emoji, animations.
+No need to open browser
+
