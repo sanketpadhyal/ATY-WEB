@@ -9,7 +9,8 @@ This is ATY WEB, a simple powerful demo project (V1) made with HTML, CSS, and Ja
 Lets you paste any Amazon product link
 https://www.amazon.in/dp/B0BZV2XH88  paste this link its demo version 
 
-
+(update) I HAVE UPLOADED A TERMINAL BASED VERSION OF ATY WEB IT SUPPORTS ALL TERMINAL BASED OS AND SOFTWARE EG. TERMUX VS CODE LINUX etc. 
+CURRENTLY DEMO VERSION I WILL MAKE IT REALTIME AFTER ADDING API IN IT SO V2 MIGHT GET DELAY. 
 Shows similar product info (demo data for now)
 
 Displays product image, name, price, and platform logos
@@ -19,3 +20,6 @@ Gives direct Buy Now links
 Clean, modern dark UI look
 
 All built with ❤️ in VS Code
+
+                                                                     sign out ~ 
+                                                                     SANKET - VortexByte
