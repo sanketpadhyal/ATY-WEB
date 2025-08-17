@@ -20,6 +20,3 @@ Gives direct Buy Now links
 Clean, modern dark UI look
 
 All built with ❤️ in VS Code
-
-                                                                     sign out ~ 
-                                                                     SANKET - VortexByte
