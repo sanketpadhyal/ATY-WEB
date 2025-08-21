@@ -1,22 +1,47 @@
-🧾 ATY WEB — All Things Compared Smartly
-(Version 1 — Demo Build)
-HOSTED BY NETLIFY URL - https://taupe-sherbet-a403a2.netlify.app/ (IT WILL WORK FOR SOME TIME AS ITS FREE HOSTING BUT FILE IS WORKING 100%)
+# 🧾 ATY WEB — All Things Compared Smartly  
+**Version 1 — Demo Build**  
+**Hosted on Netlify:** [Try it live →](https://atyweb.netlify.app/)  
 
-Hey everyone! 👋
-This is ATY WEB, a simple powerful demo project (V1) made with HTML, CSS, and JavaScript, designed to help users compare product prices around popular shopping platforms like Amazon, Flipkart, and Croma.
+**ATY WEB** is a simple yet powerful demo project built with **HTML, CSS, and JavaScript**, designed to help users compare product prices across popular shopping platforms like **Amazon, Flipkart, and Croma**.  
 
-🚀 What It Does (Right Now):
-Lets you paste any Amazon product link
-https://www.amazon.in/dp/B0BZV2XH88  paste this link its demo version 
+> ⚠️ Free hosting demo may not work permanently, but the **local files work 100%**.  
 
-(update) I HAVE UPLOADED A TERMINAL BASED VERSION OF ATY WEB IT SUPPORTS ALL TERMINAL BASED OS AND SOFTWARE EG. TERMUX VS CODE LINUX etc. 
-CURRENTLY DEMO VERSION I WILL MAKE IT REALTIME AFTER ADDING API IN IT SO V2 MIGHT GET DELAY. 
-Shows similar product info (demo data for now)
+---
 
-Displays product image, name, price, and platform logos
+![💻 Frontend](https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS%20%7C%20JavaScript-blue?style=for-the-badge)  
+![🚀 Hosting](https://img.shields.io/badge/Hosting-Netlify-orange?style=for-the-badge)  
+![👨‍💻 Author](https://img.shields.io/badge/Author-Sanket%20Padhyal-red?style=for-the-badge)  
 
-Gives direct Buy Now links
+---
 
-Clean, modern dark UI look
+## 🚀 Demo Features (V1)
 
-All built with ❤️ in VS Code
+- 🔗 Paste an Amazon product link to see demo results  
+  Example: `https://www.amazon.in/dp/B0BZV2XH88`  
+- 🛍 Displays **product image, name, price, and platform logos**  
+- 🔥 Provides **direct Buy Now links** for convenience  
+- 🌙 **Clean, modern dark UI** for smooth user experience  
+- 💻 Fully frontend (HTML, CSS, JS)  
+
+---
+
+## 🖥 Terminal Version Update
+
+- 📦 A **terminal-based version** is now available, compatible with **Termux, VS Code, Linux**, and other terminal-based environments  
+- ⏳ Currently a demo; **real-time API integration (V2)** is planned, which may take some time  
+
+---
+
+## 👨‍💻 Author
+
+**Sanket Padhyal** 💻✨  
+> Built with ❤️ in **VS Code**  
+> GitHub: [@sanketpadhyal](https://github.com/sanketpadhyal)  
+> Portfolio: Coming Soon  
+
+---
+
+## 📜 License
+
+© 2025 ATY WEB. All rights reserved.  
+This project is for **learning and showcase purposes** only.  
