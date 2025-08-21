@@ -4,7 +4,7 @@
 
 **ATY WEB** is a simple yet powerful demo project built with **HTML, CSS, and JavaScript**, designed to help users compare product prices across popular shopping platforms like **Amazon, Flipkart, and Croma**.  
 
-> ⚠️ Free hosting demo may not work permanently, but the **local files work 100%**.  
+> ⚠️ demo project may not work permanently, but the **local files works 100%**.  
 
 ---
 
