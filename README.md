@@ -41,6 +41,11 @@
 
 ---
 
+### 📅 Project Information
+Created: July 9, 2025
+
+---
+
 ## 📜 License
 
 © 2025 ATY WEB. All rights reserved.  
